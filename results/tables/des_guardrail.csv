@@ -1,0 +1,13 @@
+lam,k_analytic,service,arrivals,des_p99_ttft_at_k_analytic,k_des_min
+2,16,lognormal_tokens,poisson,1.991,15
+2,16,lognormal_tokens,bursty5s,8.303,16
+5,32,lognormal_tokens,poisson,2.198,31
+5,32,lognormal_tokens,bursty5s,19.568,32
+10,59,lognormal_tokens,poisson,1.944,56
+10,59,lognormal_tokens,bursty5s,21.171,59
+20,110,lognormal_tokens,poisson,1.912,106
+20,110,lognormal_tokens,bursty5s,46.971,110
+40,213,lognormal_tokens,poisson,1.64,206
+40,213,lognormal_tokens,bursty5s,24.21,213
+80,417,lognormal_tokens,poisson,1.46,408
+80,417,lognormal_tokens,bursty5s,48.98,417

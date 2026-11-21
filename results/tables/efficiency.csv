@@ -1,0 +1,11 @@
+policy,rsvr,usd_per_1k_compliant_req,g_co2e_per_compliant_req
+SLA-Guarded (alpha=0.5),9.684,0.435,0.179
+SLA-Guarded (alpha=0),9.585,0.103,0.508
+Spreading variant (inverse-weight routing),9.651,0.504,0.565
+CostFirst+H,12.37,0.096,0.485
+RoundRobin+H,9.864,0.554,0.631
+CarbonFirst+H,8.367,0.518,0.202
+LatencyFirst+H,8.548,1.219,1.296
+HPA_Stab,8.282,0.34,0.259
+SOLA_style,46.59,0.975,1.013
+CarbonAdvisor_Style,59.664,0.495,0.169

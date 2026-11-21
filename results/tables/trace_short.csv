@@ -1,0 +1,45 @@
+trace,protocol,policy_label,isvr,rsvr,cost,carbon,mean_rate
+code,preconditioned,SLA-Guarded (alpha=0.5),0.0,0.001,3.252,0.002,2.556
+code,preconditioned,SLA-Guarded (alpha=0),1.739,6.272,1.318,0.003,2.556
+code,preconditioned,Spreading variant (inverse-weight routing),0.0,0.0,3.933,0.004,2.556
+code,preconditioned,LatencyFirst+H,6.87,15.451,4.834,0.005,2.556
+code,preconditioned,CostFirst+H,15.652,41.945,1.068,0.002,2.556
+code,preconditioned,RoundRobin+H,0.0,0.033,3.248,0.003,2.556
+code,preconditioned,CarbonFirst+H,6.0,16.259,3.839,0.003,2.556
+code,preconditioned,LatencyFirst,36.261,54.567,2.158,0.002,2.556
+code,preconditioned,CostFirst,36.522,60.697,0.977,0.002,2.556
+code,preconditioned,SOLA_style,37.478,44.477,1.988,0.002,2.556
+code,preconditioned,HPA_Stab,18.783,13.723,1.589,0.001,2.556
+code,transient,SLA-Guarded (alpha=0.5),3.478,5.63,3.124,0.002,2.556
+code,transient,SLA-Guarded (alpha=0),5.217,12.896,1.303,0.003,2.556
+code,transient,Spreading variant (inverse-weight routing),3.478,2.58,3.797,0.004,2.556
+code,transient,LatencyFirst+H,9.13,17.89,4.8,0.005,2.556
+code,transient,CostFirst+H,17.391,42.549,1.062,0.002,2.556
+code,transient,RoundRobin+H,4.348,3.958,3.145,0.003,2.556
+code,transient,CarbonFirst+H,7.217,17.108,3.558,0.003,2.556
+code,transient,LatencyFirst,37.739,55.609,2.155,0.002,2.556
+code,transient,CostFirst,37.391,61.253,0.977,0.002,2.556
+code,transient,SOLA_style,39.13,44.538,1.979,0.002,2.556
+code,transient,HPA_Stab,25.043,20.858,1.473,0.001,2.556
+conv,preconditioned,SLA-Guarded (alpha=0.5),0.0,0.001,5.925,0.004,5.471
+conv,preconditioned,SLA-Guarded (alpha=0),6.78,2.567,1.954,0.006,5.471
+conv,preconditioned,Spreading variant (inverse-weight routing),0.0,0.0,9.151,0.01,5.471
+conv,preconditioned,LatencyFirst+H,0.0,0.0,15.795,0.016,5.471
+conv,preconditioned,CostFirst+H,6.78,2.567,1.95,0.006,5.471
+conv,preconditioned,RoundRobin+H,9.915,0.271,7.58,0.008,5.471
+conv,preconditioned,CarbonFirst+H,5.0,0.244,8.737,0.005,5.471
+conv,preconditioned,LatencyFirst,2.119,1.034,11.337,0.011,5.471
+conv,preconditioned,CostFirst,1.695,1.219,1.948,0.006,5.471
+conv,preconditioned,SOLA_style,2.542,1.339,10.769,0.01,5.471
+conv,preconditioned,HPA_Stab,98.983,11.144,3.53,0.005,5.471
+conv,transient,SLA-Guarded (alpha=0.5),2.881,1.217,5.875,0.004,5.471
+conv,transient,SLA-Guarded (alpha=0),11.864,4.382,1.94,0.006,5.471
+conv,transient,Spreading variant (inverse-weight routing),2.542,0.659,9.023,0.009,5.471
+conv,transient,LatencyFirst+H,2.712,1.146,15.455,0.015,5.471
+conv,transient,CostFirst+H,11.864,4.382,1.936,0.006,5.471
+conv,transient,RoundRobin+H,15.593,1.455,7.569,0.008,5.471
+conv,transient,CarbonFirst+H,7.034,1.565,8.675,0.005,5.471
+conv,transient,LatencyFirst,2.966,1.272,11.334,0.011,5.471
+conv,transient,CostFirst,2.542,1.328,1.948,0.006,5.471
+conv,transient,SOLA_style,3.644,1.313,10.767,0.01,5.471
+conv,transient,HPA_Stab,99.153,13.144,3.517,0.005,5.471

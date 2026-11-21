@@ -1,0 +1,11 @@
+sla_guarded_alphas,policy,settings,dominated_by_SLA_Guarded,SLA_Guarded_settings_dominated
+"0,0.5",Spreading variant (inverse-weight routing),12,12,0
+"0,0.5",CostFirst+H,12,2,4
+"0,0.5",RoundRobin+H,12,12,0
+"0,0.5",CarbonFirst+H,12,11,0
+"0,0.5",LatencyFirst+H,12,12,0
+"0,0.5,1",Spreading variant (inverse-weight routing),12,12,0
+"0,0.5,1",CostFirst+H,12,2,4
+"0,0.5,1",RoundRobin+H,12,12,0
+"0,0.5,1",CarbonFirst+H,12,11,1
+"0,0.5,1",LatencyFirst+H,12,12,0
